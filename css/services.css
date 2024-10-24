@@ -1,0 +1,61 @@
+h1#heading1{
+    text-align: center;
+}
+
+p.paragraph{
+    font-family: Algerian;
+    font-size: 18px;
+}
+
+#mydivision{
+    background-color: aqua;
+    margin: 40px;
+    padding: 30px;
+    color: white;
+}
+
+#test{
+    background-color: lightblue;
+    margin: 40px;
+    padding: 40px;
+    display: flex;
+    color: white;
+}
+
+#test img{
+    margin-right: 40px;
+    border-radius: 400px;
+}
+
+#main{
+    display: flex;
+}
+
+#advertisement{
+    background-color: #b700ff;
+    color: aliceblue;
+    margin: 30px;
+    padding: 30px;
+    box-shadow: 8px 6px 12px 4px gray;
+}
+
+#accounting{
+    background-color: #2200ff;
+    color: white;
+    margin: 30px;
+    padding: 30px;
+    box-shadow: 8px 6px 12px 4px yellow;
+}
+
+#payment{
+    background-color: #00bbff;
+    color: white;
+    margin: 30px;
+    padding: 30px;
+    box-shadow: 8px 6px 12px 4px purple;
+}
+
+#advertisement:hover,#accounting:hover, #payment:hover, #mydivision:hover{
+    background-color: gray;
+}
+
